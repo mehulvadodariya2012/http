@@ -44,9 +44,10 @@
 		$response = array('headers'=>$response_headers, 'body'=>$msg_body);
 
 		if ($http_status_code >= 400) throw new ResponseException($http_status_message, $http_status_code, $request, $response);
-
-		$msg_body = (false !== strpos($response_headers['content-type'], 'application/json')) ? json_decode($msg_body, true) : $msg_body;
-
+		if(isset($response_headers['content-type']) && false !== strpos($response_headers['content-type'], 'application/json') ){
+			$msg_body = json_decode($msg_body, true);
+		}
+		
 		return $msg_body;
 	}
 

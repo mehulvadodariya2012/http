@@ -1,5 +1,5 @@
 {
-	
+	"name": "mehulvadodariya2012/http"
 	"type": "library",
 	"description": "Convenience wrapper around cURL",
 	"keywords": ["curl","http","api"],

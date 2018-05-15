@@ -1,5 +1,5 @@
 {
-	"name": "phpish/http",
+	"name": "mehul/http",
 	"type": "library",
 	"description": "Convenience wrapper around cURL",
 	"keywords": ["curl","http","api"],

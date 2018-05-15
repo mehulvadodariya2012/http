@@ -3,9 +3,13 @@
 	"type": "library",
 	"description": "Convenience wrapper around cURL",
 	"keywords": ["curl","http","api"],
-	"homepage": "https://github.com/phpish/http",
+	"homepage": "https://github.com/mehulvadodariya2012/http",
 	"license": "MIT",
 	"authors": [
+		{
+			"name": "Mehul V",
+			"email": "mehulvadodariya2012@gmail.com",
+		},
 		{
 			"name": "Sandeep Shetty",
 			"email": "sandeep.shetty@gmail.com",
